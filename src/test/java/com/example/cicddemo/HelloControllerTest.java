@@ -9,7 +9,7 @@ class HelloControllerTest {
 
     @Test
     void hello_returnsGreeting() {
-        assertEquals("Hello CI/CD - v2", controller.hello());
+        assertEquals("Hello CI/CD - v3", controller.hello());
     }
 
     @Test
